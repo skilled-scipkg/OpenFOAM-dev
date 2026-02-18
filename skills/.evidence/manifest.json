@@ -1,0 +1,13 @@
+{
+  "core_skills": [
+    "openfoam-examples-and-tutorials",
+    "openfoam-applications",
+    "openfoam-inputs-and-modeling"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/openfoam-examples-and-tutorials.md",
+    "skills/.evidence/openfoam-applications.md",
+    "skills/.evidence/openfoam-inputs-and-modeling.md"
+  ]
+}

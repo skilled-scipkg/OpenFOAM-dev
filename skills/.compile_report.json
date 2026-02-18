@@ -1,0 +1,90 @@
+{
+  "compiled_package_id": "openfoam-dev",
+  "evidence": {
+    "core_skills": [
+      "openfoam-examples-and-tutorials",
+      "openfoam-applications",
+      "openfoam-inputs-and-modeling"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/openfoam-examples-and-tutorials.md",
+      "skills/.evidence/openfoam-applications.md",
+      "skills/.evidence/openfoam-inputs-and-modeling.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary documentation is under doc/ (Doxygen config, coding style guide, and bundled user-guide PDFs).",
+      "Main implementation code is in src/ and applications/; wmake/ contains build-system source and scripts.",
+      "tutorials/ is the canonical examples/tutorial tree used by OpenFOAM.",
+      "Tests are present in top-level test/ and additional coverage under applications/test/."
+    ],
+    "package_name": "openfoam",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src",
+      "applications",
+      "wmake"
+    ],
+    "test_dirs": [
+      "test",
+      "applications/test"
+    ],
+    "tutorial_dirs": [
+      "tutorials"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openfoam-dev-openfoam-dev",
+  "validation": {
+    "core_skills_checked": [
+      "openfoam-examples-and-tutorials",
+      "openfoam-inputs-and-modeling",
+      "openfoam-applications"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openfoam-dev-openfoam-dev/skills/openfoam-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openfoam-dev-openfoam-dev/skills/openfoam-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openfoam-dev-openfoam-dev/skills/openfoam-applications/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "openfoam-index"
+    ],
+    "ok": false,
+    "skills_total": 4,
+    "source_links_total": 34,
+    "topic_skills": 3,
+    "warnings": []
+  }
+}
